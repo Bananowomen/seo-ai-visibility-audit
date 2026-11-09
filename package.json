@@ -1,0 +1,26 @@
+{
+  "name": "seo-ai-visibility-audit",
+  "version": "0.1.0",
+  "description": "CLI that audits a page's readiness for classic search and AI-generated answers (GEO/AEO): indexability, metadata, structured data, thin content, and an AI-answer readiness score.",
+  "main": "dist/cli.js",
+  "bin": {
+    "seo-ai-audit": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["seo", "geo", "aeo", "ai-search", "schema.org", "audit"],
+  "author": "Uliana Sierik",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
